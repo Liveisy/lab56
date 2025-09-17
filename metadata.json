@@ -1,0 +1,19 @@
+{
+  "url": "https://lifestyle-fixes.com/breakthrough?utm_source=mediago&utm_medium=referral&utm_campaign=US+diet+%28desktop+only%29+%2F+NO+Google+Tag&utm_content=Drink+1%2F2+Cup+Each+Morning+Loses+Hanging+Tummy+Quickly&utm_term=24548143&tracking_id=20rmti7w7te44e0h",
+  "timestamp": "2025-08-15 18:12:11",
+  "capture_method": "realtime_snapshot_v2",
+  "total_duration": 135.8358120918274,
+  "resources_discovered": 45,
+  "resources_downloaded": 41,
+  "download_total_size": 5223337,
+  "network_requests": 45,
+  "failed_requests": 0,
+  "console_messages": 1,
+  "html_size": 45776,
+  "download_success_rate": 91.11111111111111,
+  "realtime_features": {
+    "path_mappings": 41,
+    "immediate_downloads": 41,
+    "filter_tracking_pixels": true
+  }
+}

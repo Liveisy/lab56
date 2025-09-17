@@ -1,0 +1,131 @@
+/* Universal Styles */
+html, body {
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sectionContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    letter-spacing: -0.05rem;
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 0 0 1.25rem;
+}
+
+blockquote {
+    background-color: #F7FAFC;
+    border-left: 4px solid #2B6CB0;
+    font-style: italic;
+    padding: 32px 40px;
+    margin: 48px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 1.2em;
+    color: #2D3748;
+    font-family: Georgia, serif;
+    line-height: 1.7;
+    position: relative;
+}
+
+
+.articleInfo {
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    margin-bottom: 15px;
+}
+
+.photoAuthor {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.articleImageContainer {
+    margin: 0 0 20px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.rightfloatimg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 0 0 20px;
+}
+
+.img-wrapper {
+    width: 35%;
+    display: inline-block;
+    float: right;
+}
+
+.side-text {
+    width: 63%;
+    display: inline-block;
+}
+
+.cta {
+    background-color: #cc0000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin: 40px auto 0;
+    display: block;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: #a60000;
+}
+
+.footer-desc {
+    font-size: 10pt;
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    .img-wrapper, .side-text {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+
+    .rightfloatimg {
+        display: block;
+    }
+}
